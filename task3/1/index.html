@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function reverseBits(bits) {
+        return parseInt(bits.toString(2).split("").reverse().join(""), 2);
+    }
+
+    console.log(reverseBits(417));
+    console.log(reverseBits(267));
+    console.log(reverseBits(0));
+    console.log(reverseBits(2017));
+    console.log(reverseBits(1024));
+
+</script>
+</body>
+</html>

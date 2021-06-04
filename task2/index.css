@@ -1,0 +1,22 @@
+form {
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 100px;
+    display: grid;
+}
+
+h1 {
+    color: #4da6f9;
+    margin: 10% auto;
+}
+
+button {
+    background: #4da6f9;
+    height: 30px;
+    width: 65px;
+    color: white;
+    border: #4eaaec;
+    margin: 7% auto;
+    border-radius: 5px;
+}

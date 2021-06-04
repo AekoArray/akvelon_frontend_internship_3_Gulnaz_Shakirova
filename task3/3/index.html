@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    function getUniqueWords(str) {
+        let set = new Set();
+        str.split(" ").forEach((el) => {
+            set.add(el);
+        })
+        return [...set].join(" ");
+    }
+
+    console.log(getUniqueWords("easy come easy go"));
+    console.log(getUniqueWords(""));
+    console.log(getUniqueWords("first things first"));
+
+</script>
+</body>
+</html>
